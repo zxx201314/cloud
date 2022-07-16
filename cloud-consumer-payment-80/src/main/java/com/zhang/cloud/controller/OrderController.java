@@ -17,7 +17,7 @@ public class OrderController {
     private RestTemplate restTemplate;
 
     //暂时在这里写死
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     //按理说插入数据应该是POST，可以从浏览器只能发GET请求，尽管不符合RESTFUL，
     // 但是下面的template.postForObject调用却是POST请求

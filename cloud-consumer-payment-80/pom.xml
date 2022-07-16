@@ -11,7 +11,11 @@
 
     <artifactId>cloud-consumer-payment-80</artifactId>
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        
         <dependency>
             <groupId>com.zhang.springcloud</groupId>
             <artifactId>cloud-api-common</artifactId>
