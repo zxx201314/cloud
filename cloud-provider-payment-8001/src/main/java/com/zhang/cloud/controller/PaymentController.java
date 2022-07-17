@@ -68,4 +68,13 @@ public class PaymentController {
         }
     }
 
+    /**
+     * 测试轮询算法
+     * @return
+     */
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return port;
+    }
+
 }

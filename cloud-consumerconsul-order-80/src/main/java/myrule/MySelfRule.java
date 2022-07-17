@@ -1,4 +1,4 @@
-package com.zhang.cloud.com.zhang.myrule;
+package myrule;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @Description:
  */
 @Configuration
-public class MySelfRule {
+public class MySelfRule{
 
     @Bean
     public IRule iRule(){

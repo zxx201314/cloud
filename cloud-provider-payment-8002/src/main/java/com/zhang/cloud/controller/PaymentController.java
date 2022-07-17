@@ -48,5 +48,14 @@ public class PaymentController {
             return new CommonResult(204,"查询ID:"+id+"没有对应记录", null);
         }
     }
+    /**
+     * 测试轮询算法
+     * @return
+     */
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return port;
+    }
+
 
 }
