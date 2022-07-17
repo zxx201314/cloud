@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f746ac-b665-46c3-a2c0-f42d715ac891" name="Default Changelist" comment="">
+    <list default="true" id="b0f746ac-b665-46c3-a2c0-f42d715ac891" name="Default Changelist" comment="手写Irule轮询算法：核心&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;访问数 % 可用服务实例数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-payment-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumerconsul-order-80/src/main/java/com/zhang/cloud/OrderConsulMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerconsul-order-80/src/main/java/com/zhang/cloud/OrderConsulMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumerconsul-order-80/src/main/java/com/zhang/cloud/com/zhang/myrule/MySelfRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerconsul-order-80/src/main/java/myrule/MySelfRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/zhang/cloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/zhang/cloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/zhang/cloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/zhang/cloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/classes/com/zhang/cloud/common/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/classes/com/zhang/cloud/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/cloud-api-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/classes/com/zhang/cloud/OrderMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/classes/com/zhang/cloud/config/ApplicationContextConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/classes/com/zhang/cloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/cloud-consumer-payment-80-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-payment-80/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/zhang/cloud/PaymentMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/zhang/cloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/zhang/cloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/zhang/cloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/zhang/cloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/cloud-provider-payment-8001-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-provider-payment-8001/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="61" column="74" lean-forward="true" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+            <state relative-caret-position="222">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +125,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/resources/token.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/OrderMain80.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,20 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/config/ApplicationContextConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="42">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -138,7 +159,7 @@
         <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/loadbalance/LoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/loadbalance/MyLoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,6 +266,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="cloud-providerconsul-payment-8006" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -281,180 +311,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-payment-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,7 +321,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1658067512691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1658067849967" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -601,7 +458,7 @@
       <workItem from="1657930263983" duration="2318000" />
       <workItem from="1657976349029" duration="7148000" />
       <workItem from="1657984586340" duration="448000" />
-      <workItem from="1658038854981" duration="11048000" />
+      <workItem from="1658038854981" duration="11472000" />
     </task>
     <task id="LOCAL-00001" summary="eureka 集群、服务集群">
       <created>1657982673217</created>
@@ -652,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1658063653856</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="手写Irule轮询算法：核心&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;访问数 % 可用服务实例数">
+      <created>1658067635968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658067635968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21130000" />
+    <option name="totallyTimeSpent" value="21554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,10 +533,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -689,7 +552,7 @@
       <window_info anchor="bottom" id="Anonymous Apex" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.40191898" weight="0.45553145" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.40191898" visible="true" weight="0.45553145" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -697,12 +560,12 @@
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="17" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49946696" visible="true" weight="0.45444685" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49946696" weight="0.45444685" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.16950959" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.16950959" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="7" />
@@ -719,7 +582,8 @@
     <MESSAGE value="GitHub token修订" />
     <MESSAGE value="springcloud-consul 服务demo搭建" />
     <MESSAGE value="自定义修改ribbon负载规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义修改ribbon负载规则" />
+    <MESSAGE value="手写Irule轮询算法：核心&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;访问数 % 可用服务实例数" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写Irule轮询算法：核心&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;访问数 % 可用服务实例数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,6 +592,12 @@
           <url>jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/IRule.class</url>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -917,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/resources/token.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1065,7 +928,7 @@
     <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/loadbalance/LoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1075,7 +938,7 @@
     <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/loadbalance/MyLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,16 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="61" column="74" lean-forward="true" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/zhang/cloud/PaymentMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1136,7 +989,17 @@
     <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/OrderMain80.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/java/com/zhang/cloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1145,8 +1008,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-payment-80/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/resources/token.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="53" />
         </state>
       </provider>
     </entry>
