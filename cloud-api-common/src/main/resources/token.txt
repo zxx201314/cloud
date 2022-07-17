@@ -1,2 +1,2 @@
 git config --global http.sslVerify 'false'
-github:token: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
+github:token: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
