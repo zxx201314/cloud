@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 //没有配置过fallback，就找在该类上配置的defaultfallback，配置过的就找自己单独配置的。
-@DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
+@DefaultProperties(defaultFallback = "payment_Global_FallbackMethod") // 注解对paymentInfo_OK不生效，因为paymentInfo_OK方法上没有添加@HystrixCommand注解
 public class OrderHystrixController {
     @Resource
     private PaymentHystrixService paymentHystrixService;
@@ -27,7 +27,7 @@ public class OrderHystrixController {
         return result;
     }
     /**
-     * 规定这个线程的超时时间是3s，3s后就由fallbackMethod指定的方法帮我“兜底”（服务降级）
+     * HystrixCommand 规定这个线程的超时时间是3s，3s后就由fallbackMethod指定的方法帮我“兜底”（服务降级）
      * @param id
      * @return
      */
