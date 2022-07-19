@@ -1,5 +1,0 @@
-com\zhang\cloud\controller\PaymentController.class
-com\zhang\cloud\dao\PaymentDao.class
-com\zhang\cloud\PaymentMain.class
-com\zhang\cloud\service\impl\PaymentServiceImpl.class
-com\zhang\cloud\service\PaymentService.class
