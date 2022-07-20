@@ -2,6 +2,6 @@ git config --global http.sslVerify 'false'
 github:token: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
 git remote set-url origin https://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@github.com/zxx201314/juc.git
 git push --set-upstream origin master
-git remote set-url origin https://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@github.com/zxx201314/cloud.git/
+git remote set-url origin https://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@github.com/zxx201314/cloud.git/
 git push --set-upstream origin master
 git config --global http.sslVerify false
